@@ -1,0 +1,138 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #235960;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #235960;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #558f97;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#username {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 75%;
+    max-width: 300px;
+}
+
+#search-btn {
+    padding: 12px 18px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+.user-info {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.user-info img {
+    width: 120px; /* Set a professional fixed size for the avatar */
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.user-info p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.user-info a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user-info a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #username {
+        width: 65%;
+    }
+}
+
+@media (max-width: 480px) {
+    #username {
+        width: 60%;
+    }
+    
+    #search-btn {
+        width: 30%;
+    }
+}
